@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Permitir o scroll */
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  min-height: 100%; /* Garantir que o fundo ocupe toda a altura da tela */
+  overflow: auto; /* Permitir o scroll */
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: -1;
+}
+
+.header {
+  height: 120px;
+  background-color: #74D594;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  height: 100px;
+}
+
+.login-container {
+  max-width: 400px;
+  background-color: #74D594;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  color: #1A4729;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.subtext {
+  margin: 10px 0 20px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 14px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  color: #000000;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #499261;
+  background: white;
+  font-size: 16px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.btn-login {
+  background-color: #1EB450;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.forgot-password,
+.signup-text {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  color: #1A4729;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-signup {
+  background-color: #1B572F;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.main {
+  font-family: 'Times New Roman', Times, serif;
+}

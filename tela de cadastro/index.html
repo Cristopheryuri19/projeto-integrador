@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <div class="header-bar">
+      <div class="logo">
+        <img src="/img/logo-amigo-secreto.png" alt="Logo" />
+      </div>
+      <div class="titulo">Amigo Secreto</div>
+    </div>
+
+    <!-- BACKGROUND E FORMULÁRIO -->
+    <img class="bg-img" src="/img/imagem-de-fundo-presentes.png" alt="Background" />
+    <div class="overlay"></div>
+
+    <div class="form-box">
+      <h1 class="title">Cadastro</h1>
+      <a href="#" class="back">Voltar</a>
+      <p class="subtitle">Informe algumas informações para efetuarmos <br>seu cadastro!</p>
+
+      <label class="label" for="nome">Nome</label>
+      <input class="input" id="nome" type="text" />
+
+      <label class="label" for="email">Email</label>
+      <input class="input" id="email" type="email" />
+
+      <label class="label" for="confirmar-email">Confirmar Email</label>
+      <input class="input" id="confirmar-email" type="email" />
+
+      <label class="label" for="senha">Senha</label>
+      <input class="input" id="senha" type="password" />
+
+      <label class="label" for="nascimento">Data de nascimento</label>
+      <div class="data-nascimento">
+        <input class="input small" type="text" placeholder="Dia" />
+        <input class="input small" type="text" placeholder="Mês" />
+        <input class="input medium" type="text" placeholder="Ano" />
+      </div>
+
+      <label class="label" for="whatsapp">WhatsApp</label>
+      <input class="input" id="whatsapp" type="tel" />
+
+      <div class="checkboxes">
+        <label><input type="checkbox" /> Li e concordo com os <strong>Termos de Uso</strong></label>
+        <label><input type="checkbox" /> Li e concordo com a <strong>Política de Privacidade</strong></label>
+        <label><input type="checkbox" /> Li e concordo com a <strong>Política de Cookies</strong></label>
+      </div>
+
+      <button class="btn">CADASTRAR</button>
+    </div>
+  </div>
+</body>
+</html>

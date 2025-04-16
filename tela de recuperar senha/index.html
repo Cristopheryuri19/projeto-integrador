@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;700&family=Sarabun&family=Sansation&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="/img/imagem-de-fundo-presentes.png" alt="fundo" class="bg-image">
+    <div class="overlay"></div>
+
+    <header class="header">
+      <img src="/img/logo-amigo-secreto.png" alt="logo">
+      <h3>Amigo secreto</h3>
+    </header>
+
+    <main class="login-wrapper">
+      <div class="login-box">
+        <h2>Crie seu grupo e<br>monte seu amigo secreto!</h2>
+        <p class="login-prompt">Já fez cadastro? Então faça login!</p>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-field" placeholder="Digite seu email">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" class="input-field" placeholder="Digite sua senha">
+
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="manter-logado">
+          <label for="manter-logado">Manter-me logado</label>
+        </div>
+
+        <button class="btn btn-login">ENTRAR</button>
+        <a href="#" class="forgot-link">Esqueci a senha</a>
+        <p class="register-prompt">Não tem cadastro?</p>
+        <button class="btn btn-register">CADASTRE-SE</button>
+      </div>
+    </main>
+
+    <div class="forgot-password-box">
+      <h3>esqueceu a senha?<br>sem problemas a gente te ajuda</h3>
+      <input type="email" class="forgot-input" placeholder="Coloque seu email aqui">
+      <button class="btn btn-send">Enviar</button>
+    </div>
+  </div>
+</body>
+</html>
