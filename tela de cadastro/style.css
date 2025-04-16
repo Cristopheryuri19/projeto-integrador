@@ -8,6 +8,7 @@
 }
 
 body, html {
+  width: 100%;
   height: auto;
   min-height: 100vh;
   overflow: auto;
@@ -61,13 +62,12 @@ body {
 }
 .titulo {
   font-size: 24px;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   display: block;
-    font-size: 1.17em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
